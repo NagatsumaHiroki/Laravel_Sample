@@ -24,6 +24,8 @@ sail art about
    php artisan config:clear
 ・キャッシュをクリアにする
 　　php artisan cache:clear
+・DBのデータ更新
+　　php artisan migrate:refresh --seed
 
 
 起動時の確認
